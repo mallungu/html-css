@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+
+    <h1>Mídias em HTML5</h1>
+
+    <h2>Imagens dinâmicas</h2>
+
+    <p>Tente abrir este site em dispositivos diferentes ou simplesmente aumente e diminue o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h2>Colocando áudio no site</h2>
+
+    <audio src="midias/nga_deus_e_pra_todos_mp3_40676.mp3" controls></audio>
+
+    <audio controls autoplay loop preload="metadata">
+        <source src="midias/nga_somos_campeoes_feat_soraia_ramos_mp3_40273.mp3" type="audio/mpeg">
+        <p>Seu nabegador não é compatível com o arquivo <a href="midias/nga_somos_campeoes_feat_soraia_ramos_mp3_40273.mp3" download="nga_somos_campeoes_feat_soraia_ramos_mp3_40273.mp3" type="audio/mpeg">Clique aqui para fazer o download em formato mp3</a></p>
+    </audio>
+
+    
+    
+</body>
+</html>

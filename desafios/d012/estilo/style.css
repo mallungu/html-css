@@ -1,0 +1,99 @@
+@charset "UTF-08";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', Cursive;
+    --font3: 'Sriracha', Cursive;
+}
+
+html,
+body {
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: var(--font1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    h1 {
+        padding-top: 50px;
+        font-variant: small-caps;
+        font-family: var(--font2);
+        font-size: 45px;
+    }
+
+    p {
+        padding-bottom: 50px;
+    }
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh;
+    line-height: 2em;
+    font-family: var(--font3);
+
+    p {
+        padding: 10px;
+    }
+}
+
+.normal {
+    background-color: white;
+}
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.479);
+
+    p {
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.404);
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+#flor{
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.5);
+
+}
+
+#carta{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px hsla(0, 0%, 0%, 0.5);
+
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}

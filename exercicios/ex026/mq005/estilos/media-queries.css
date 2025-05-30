@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    a#burger{
+        display: none;
+    }
+
+    body::after{
+        content: 'Este site foi imprenso através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width:601px) {
+
+    
+
+    a#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+
+        li {
+            display: inline-block;
+
+            a {
+                border-top: none;
+
+            }
+
+            a:hover{
+                transform: translate(5%, 5%);
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    main{
+        width: 80vw;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (min-width:769px) {
+
+    a#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+
+        li {
+            display: inline-block;
+
+            a {
+                border-top: none;
+
+            }
+
+            a:hover{
+                transform: translate(5%, 5%);
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    main{
+        width: 700px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (min-width:993px) {
+
+    a#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+
+        li {
+            display: inline-block;
+
+            a {
+                border-top: none;
+            }
+
+            a:hover{
+                transform: translate(5%, 5%);
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    main{
+        width: 800px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gouping tags</title>
+
+    <style>
+        body{
+            background-color: lightgray;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav{
+            background-color: darkgray;
+            padding: 10px;      
+            box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.822);      
+        }
+
+        nav > a{
+            padding-right: 30px ;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav>a:hover{
+            text-decoration: underline;
+            background-color: rgb(204, 204, 204);
+            border-radius: 3px;
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        section>article#noticias{
+            background-color: gray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        aside{
+            background-color: rgb(71, 71, 71);
+            padding: 10px;
+            margin: -10px;
+            border-radius: 0px 0px 10px 10px;
+            text-align: right;
+        }
+
+        footer{
+            background-color: black;
+            color: white;        
+            padding: 1px;
+            text-align: center;
+        }
+
+        footer > p > a {
+            color: white;
+            font-size: bold;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Conteúdo Principal</h2>
+
+        <section>
+            <h3>Introdução</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequatur fuga porro repellat recusandae veritatis commodi doloribus cupiditate, consequuntur unde aliquid tenetur temporibus nulla facere inventore sequi. Consequatur, reiciendis quam.</p>
+        </section>
+
+        <section>
+            <h3>Noticias</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, harum? Odit facere mollitia harum earum impedit nesciunt similique dolorum, numquam ipsum temporibus repudiandae consequuntur iusto, vitae perspiciatis, quasi iste explicabo.</p>
+
+            <article id="noticias">
+                <h4>Notícias sobre Angola</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sapiente mollitia nemo in? Assumenda aliquid consectetur, earum unde quo, ut similique voluptas nihil quaerat repellendus, ducimus aspernatur quasi veniam. Deserunt!</p>
+
+                <aside>
+                    <p>Publicado por Mallungu</p>
+                </aside>
+            </article>
+
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis officia cum voluptatem eligendi tenetur, voluptatibus illum dicta sunt ut, voluptate quibusdam magnam omnis ea qui aliquid cupiditate aut animi tempore.</p>
+            </article>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="#" target="_blank" rel="external">Curso em Video</a></p>
+    </footer>
+    
+</body>
+</html>
